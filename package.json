@@ -4,10 +4,11 @@
   "description": "<a name=\"readme-top\"></a>",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --passWithNoTests",
     "start": "webpack serve --open",
-    "build": "webpack"
-  },
+    "build": "webpack",
+    "lint": "eslint src/**/*.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
