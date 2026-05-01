@@ -4,10 +4,18 @@
   "description": "<a name=\"readme-top\"></a>",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "test": "jest",
     "start": "webpack serve --open",
     "build": "webpack"
   },
+=======
+    "test": "jest --passWithNoTests",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "lint": "eslint src/**/*.js"
+},
+>>>>>>> fa97a45ea35df5bbb720e4c86c544bc5956b1c4b
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +25,7 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",
+<<<<<<< HEAD
     "hint": "^6.0.3",
     "html-webpack-plugin": "^5.5.2",
     "style-loader": "^3.3.3",
@@ -26,6 +35,19 @@
     "webpack": "^5.4.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^5.2.3"
+=======
+    "hint": "^7.1.9",
+    "html-webpack-plugin": "^5.5.2",
+    "jest": "^30.3.0",
+    "style-loader": "^3.3.3",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^4.15.1"
+>>>>>>> fa97a45ea35df5bbb720e4c86c544bc5956b1c4b
   },
   "dependencies": {
     "lodash": "^4.17.20"
