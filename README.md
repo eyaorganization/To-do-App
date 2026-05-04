@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> fa97a45ea35df5bbb720e4c86c544bc5956b1c4b
+
+ 
 # To-do List Tool
 <a name="readme-top"></a>
 
@@ -213,7 +212,7 @@ If you like this project, create a pull request or hit us up on [Twitter](https:
 - This project is [MIT](./LICENSE) licensed. </br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<<<<<<< HEAD
-=======
 
->>>>>>> fa97a45ea35df5bbb720e4c86c544bc5956b1c4b
+
+
+
