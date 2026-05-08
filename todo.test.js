@@ -1,4 +1,4 @@
-const { addTask, deleteTask, toggleTask } = require('./todo');
+const { addTask, deleteTask, toggleTask } = require('./todo.js');
 
 test("add task", () => {
   const result = addTask([], "Study");
