@@ -14,9 +14,8 @@
     "no-shadow": "off",
     "no-param-reassign": "off",
     "eol-last": "off",
-    "import/extensions": [ 1, {
-      "js": "always", "json": "always"
-    }],
+    "linebreak-style": "off",
+    "import/extensions": "off",
     "arrow-parens": "off",
     "no-confusing-arrow": "off",
     "implicit-arrow-linebreak": "off",
@@ -26,6 +25,8 @@
   },
   "ignorePatterns": [
     "dist/",
-    "build/"
+    "build/",
+    "To-do-App/src/",
+    "To-do-App/"
   ]
 }
